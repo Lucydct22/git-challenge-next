@@ -8,8 +8,7 @@ export const NavBar = () => {
 		<nav className="bg-white border-gray-200 dark:bg-gray-900 flex flex-wrap items-center justify-between py-4 px-6">
 			<span>
 				<a href="./" className="flex items-center">
-					<Image src="" className="h-8 mr-3" alt="Logo" width={32} height={32} />
-					<span className="self-center text-2xl font-semibold text-blue-400 dark:text-white">RepoTrack</span>
+					<span className="mb-4 text-3xl font-extrabold dark:text-white md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">RepoTrack</span>
 				</a>
 			</span>
 
