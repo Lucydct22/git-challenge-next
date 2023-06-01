@@ -1,8 +1,7 @@
+
 export default function Repositories() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 w-4/5">
-
-
       <form className="w-11/12">
         <div className="relative w-full" >
           <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search Repositories.." required />
@@ -13,8 +12,6 @@ export default function Repositories() {
             <span className="sr-only">Search</span>
           </button>
         </div>
-
-
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
           <div className="flex items-center justify-between pb-4">
             <div>
@@ -158,9 +155,12 @@ export default function Repositories() {
           </tbody>
         </table>
       </form >
+
     </main >
   )
 }
+
+
 
 
 

@@ -1,7 +1,10 @@
+/* eslint-disable react/jsx-no-undef */
 import { Inter } from 'next/font/google'
 import { NavBar } from '@/components/NavBar'
 import { SideBar } from '@/components/SideBar'
 import './globals.css'
+import PageNavigation from '@/components/PageNavigation/components/PageNavigation'
+import Footer from '@/components/Footer/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +26,10 @@ export default function RootLayout({
           <SideBar />
           {children}
         </div>
+        <div className='align-center'>
+          <PageNavigation />
+        </div>
+        <Footer />
       </body>
     </html>
   )
