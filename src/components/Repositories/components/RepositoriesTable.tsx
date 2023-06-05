@@ -1,4 +1,4 @@
-import { getRepositories, formatDate } from "@/utils"
+import { formatDate } from "@/utils"
 import { RepositoryRow } from "./RepositoryRow";
 import { FC, useEffect, useState } from "react";
 import { IRepository } from "../types";

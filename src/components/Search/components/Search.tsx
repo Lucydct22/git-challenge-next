@@ -15,6 +15,7 @@ export const Search: FC<SearchProps> = ({
 	const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
 		setQuery(event.target.value)
 	}
+
 	return (
 		<>
 			<form className="w-11/12">
